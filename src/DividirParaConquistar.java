@@ -1,9 +1,9 @@
 public class DividirParaConquistar {
     static void main() {
-        Array teste = new Array();
-        RecursividadeFatorial chama = new RecursividadeFatorial();
-        //System.out.println(teste.maiorNumeroDeUmArray());
-        System.out.println(chama.fatorial(5));
+        // RecursividadeFatorial chama = new RecursividadeFatorial();
+
+        MaiorNumeroDeUmArray maior = new MaiorNumeroDeUmArray();
+        System.out.println(maior.maiorNumero(new int[]{1, 3, 5, 6}, 0));
     }
 
 }
