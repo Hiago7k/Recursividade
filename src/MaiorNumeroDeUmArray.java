@@ -10,14 +10,14 @@ public class MaiorNumeroDeUmArray {
         j++;
         i++;
 
-        if (j <= nums.length - 1) {
-
+        if (j <= nums.length -1) {
             if (nums[i] >= nums[i + 1]) {
                 target = nums[i];
             } else {
-                return maiorNumero(new int[]{4, 3, 7, 1});
+                return maiorNumero(new int[]{1000, 122, 50, 10});
             }
         }
+
         return target;
     }
 }
